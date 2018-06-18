@@ -42,8 +42,49 @@
 		[name: "Doc Brown",
 		location: "Hill Valley",
 		favoriteMovies: "Back to the Future", "Back to the Future 2", "Hill Valley Slasher"]
-		
+
 	}
+
+///Take It Easy:
+
+	let rainbow = ["red", "orange", "yellow", "green", "blue", "indigo" and "violet"];
+
+	console.log(rainbow[4]);
+
+	const captainAwesomePants = {
+		favoriteFood: "Italian",
+		hobby: "Leather working",
+		location: "Broomfield",
+		favoriteDataType: "arrays"
+	}
+		console.log(captainAwesomePants.hobby);
+
+
+
+////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
