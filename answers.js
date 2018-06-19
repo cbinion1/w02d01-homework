@@ -159,7 +159,15 @@ for (let i in bondFilms){
 }
 
 
-////
+let oddBonds = [];
+
+for (let i in bondFilms){
+	oddBonds[i] = bondFilms[i].year;
+  if (oddBonds[i] % 2 != 0){
+	console.log(oddBonds[i]);
+  }
+}
+
 
 
 
