@@ -168,6 +168,20 @@ for (let i in bondFilms){
   }
 }
 
+let totalGrossSum = 0;
+
+for (let i = 0; i< bondFilms.length; i++){
+  
+  bondFilms[i].gross = bondFilms[i].gross.replace("$", "");
+  
+  thisString = bondFilms[i].gross.split(",");
+  
+  thisString2 = thisString.join("");
+  
+  totalGrossSum += parseInt(thisString2);
+}
+
+  console.log(totalGrossSum);
 
 
 
